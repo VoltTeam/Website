@@ -1,0 +1,3 @@
+RewriteRule (.+)\.html$ /$1/ [L,R]
+ErrorDocument 404 /
+ErrorDocument 500 /
